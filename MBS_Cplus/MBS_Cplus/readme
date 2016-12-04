@@ -1,0 +1,22 @@
+This is a C++ implementation of the method described in:
+
+"Minimum Barrier Salient Object Detection at 80 FPS" Jianming Zhang et al.,ICCV,2015
+
+Contact:dzhchxk@126.com
+
+Prerequisite: OpenCV 2.4+
+
+This code shoule be executed in Linux!
+Usage:
+
+	1.Go to the folder "src"
+	2.modify the opencv include and lib paths in makefile.
+	3.compile the code with the command "make"
+	4.run for example: "./main ../dog.jpg"
+	  There are two parameters in main function, and the second is the image path.
+	  As for the image path, both absolute and relative are ok.
+
+This C++ implementation is possessed by MCG ICT only.
+
+The C++ implementation is slower than the official C++ executable.
+Maybe the official version has been optimized for speed up.
